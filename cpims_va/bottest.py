@@ -21,7 +21,7 @@ from flask import Flask, escape, request, render_template
 
 #importing the dataset
 #importing the dataset
-with open('finale.json') as content:
+with open('chat.json') as content:
   data1 = json.load(content)
 #getting all the data to lists
 tags = []

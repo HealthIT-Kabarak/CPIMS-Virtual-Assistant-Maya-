@@ -88,54 +88,27 @@
     </button>
     <!-- Component Start -->
     <div
-      class="md:w-2/5 absolute z-20 flex top-16 bottom-28 right-5 flex-col items-center justify-center bg-gray- text-gray-800"
+      id="chat-container"
+      class="md:w-2/5 z-20 absolute flex top-16 bottom-28 right-5 flex-col items-center text-gray-800"
     >
       <div
         class="flex flex-col flex-grow w-full max-w-xl bg-white shadow-xl rounded-xl overflow-hidden"
       >
         <div
-          class="flex flex-col flex-grow h-0 p-4 overflow-auto"
+          class="flex flex-col flex-grow h-full p-4 overflow-auto"
           id="messages"
-        >
-          <div class="flex w-full mt-2 space-x-3 max-w-xs">
-            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300">
-              <img srcset="../static/maya.jpg" alt="" />
-            </div>
-            <div class="my-2">
-              <div class="bg-green-400 p-3 rounded-r-lg rounded-bl-lg">
-                <p class="font-bold text-sm">Maya</p>
-                <p class="text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="flex w-full mt-2 space-x-3 max-w-xs ml-auto justify-end">
-            <div>
-              <div
-                class="bg-blue-300 text-white p-3 rounded-l-lg rounded-br-lg"
-              >
-                <p class="text-sm">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod.
-                </p>
-              </div>
-              <span class="text-xs text-gray-500 leading-none">2 min ago</span>
-            </div>
-            <div class="flex-shrink-0 h-10 w-10 rounded-full bg-gray-300"></div>
-          </div>
-        </div>
+        ></div>
 
         <form
           action=""
-          class="bg-gray-400 p-2 flex space-x-5 justify-between px-6"
+          class="bg-gray-300 p-2 flex space-x-5 justify-between px-6"
           onsubmit="sendMessage(event)"
         >
           <input
             type="text"
             id="messageText"
             placeholder="How may I help you..."
-            class="border p-4 w-4/5"
+            class="border p-2 w-4/5"
             autocomplete="off"
           />
           <button type="submit">
@@ -158,12 +131,56 @@
       </div>
     </div>
     <!-- Component End  -->
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
-    <script src="../static/script.js"></script>
+    <script srcset="{{ url_for('static', filename='script.js') }}"></script>
     <script>
       var ws = new WebSocket("ws://localhost:8000/ws");
       ws.onmessage = function (event) {
         var messages = document.getElementById("messages");
+        console.log(event.data);
+        let jdata1 = JSON.parse(event.data);
+        var msg_outer1 = document.createElement("div");
+        msg_outer1.classList.add(
+          "flex",
+          "w-full",
+          "mt-2",
+          "space-x-3",
+          "max-w-xs",
+          "justify-end",
+          "ml-auto"
+        );
+        var dp1 = document.createElement("div");
+        dp1.classList.add(
+          "flex-shrink-0",
+          "h-10",
+          "w-10",
+          "rounded-full",
+          "bg-gray-300"
+        );
+        var pic1 = document.createElement("img");
+        var msg_cont1 = document.createElement("div");
+        msg_cont1.classList.add("my-2");
+        var msg_box1 = document.createElement("div");
+        msg_box1.classList.add(
+          "bg-blue-300",
+          "p-3",
+          "rounded-l-lg",
+          "rounded-br-lg"
+        );
+        var msg_name1 = document.createElement("p");
+        msg_name1.classList.add("font-bold", "text-sm");
+        var msg_text1 = document.createElement("p");
+        msg_text1.classList.add("text-sm");
+        msg_box1.appendChild(msg_name1);
+        msg_box1.appendChild(msg_text1);
+        msg_cont1.appendChild(msg_box1);
+        dp1.appendChild(pic1);
+        msg_outer1.appendChild(msg_cont1);
+        msg_outer1.appendChild(dp1);
+        var content1 = document.createTextNode(jdata1.data);
+        msg_text1.appendChild(content1);
+
+        let jdata = JSON.parse(event.data);
+        console.log("Jdata:", jdata);
         var msg_outer = document.createElement("div");
         msg_outer.classList.add(
           "flex",
@@ -181,6 +198,7 @@
           "bg-gray-300"
         );
         var pic = document.createElement("img");
+        pic.setAttribute("src", "{{ url_for('static', filename='maya.jpg') }}");
         var msg_cont = document.createElement("div");
         msg_cont.classList.add("my-2");
         var msg_box = document.createElement("div");
@@ -200,9 +218,12 @@
         dp.appendChild(pic);
         msg_outer.appendChild(dp);
         msg_outer.appendChild(msg_cont);
-        var content = document.createTextNode(event.data);
+        var content = document.createTextNode(jdata.respo);
         msg_text.appendChild(content);
+
+        messages.appendChild(msg_outer1);
         messages.appendChild(msg_outer);
+        console.log("here");
       };
       function sendMessage(event) {
         var input = document.getElementById("messageText");
@@ -210,6 +231,27 @@
         input.value = "";
         event.preventDefault();
       }
+
+      const btn = document.getElementById("menu-btn");
+      const bars = document.getElementsByClassName("hamburger");
+      const menu = document.getElementById("menu");
+      const chat_btn = document.getElementById("chat-btn");
+      const chat_box = document.getElementById("chat-container");
+
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("open");
+        menu.classList.toggle("flex");
+        menu.classList.toggle("hidden");
+        for (let bar of bars) {
+          bar.classList.toggle("open");
+        }
+      });
+
+      chat_btn.addEventListener("click", () => {
+        chat_box.classList.toggle("flex");
+        chat_box.classList.toggle("hidden");
+        chat_btn.classList.toggle("animate-bounce");
+      });
     </script>
   </body>
 </html>
