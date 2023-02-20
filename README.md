@@ -48,6 +48,7 @@ Open the application in your web browser:
 To use the chatbot, simply type a question or query into the chat window and hit "Enter" or click the "Send" button. The chatbot will respond with a relevant answer or suggestion.
 
 <hr/>
+
 ### Technologies Used
 
 - Python
@@ -59,6 +60,7 @@ To use the chatbot, simply type a question or query into the chat window and hit
 - Tailwind CSS
 
 <hr/>
+
 ### Maya : Behind The Scenes
 
 ##### Data Cleaning
