@@ -68,7 +68,7 @@ model  = Model(i,x)
 #compiling the model
 model.compile(loss="sparse_categorical_crossentropy",optimizer='adam',metrics=['accuracy'])
 #training the model
-train = model.fit(x_train,y_train,epochs=500)
+train = model.fit(x_train,y_train,epochs=200)
 
 
 def getBotResponse(data_input):
