@@ -84,9 +84,7 @@ VI. Model Deployment- <br>
 - Python
 - Pandas
 - TensorFlow
-- FastAPI
 - Flask
-- Websockets
 - Tailwind CSS
 
 <hr/>
@@ -102,44 +100,59 @@ The user interface for the chatbot was designed using Tailwind CSS, a utility-fi
 <img src="./rm_assets/mobi_view.webp" alt="Image description">
 <img src="./rm_assets/mobi_view2.webp" alt="Image description">
 
-
 ### Installation and Setup
 
-After forking the repository
+After **forking** the repository to your account:
 
 1. Clone the project from Github:
-   bash
 
-```
-git clone https://github.com/your-username/cpims-virtual-assistant.git
+```bash
+git clone https://github.com/your-username/repository_name.git
 ```
 
 2. Navigate to the project directory:
 
-_bash_
-
-```
-cd cpims-virtual-assistant
+```bash
+cd repository_name
 ```
 
-3. Install the required dependencies:
+3. Navigate to backend directory
 
+```bash
+cd backend
 ```
+
+4. Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application:
+5. Run the backend application:
 
 ```
 python3 app.py
 ```
 
-Open the application in your web browser:
+The Flask server will be running on:
 
-```javascript
-    http://localhost:8000/maya
+```bash
+    http://localhost:5000/api
 ```
 
+Feel free to test the server using PostMan or the frontend application.
+
+### Testing on Postman:
+
+1. Using a **POST** request, set the url to _http://localhost:5000/api_
+2. Set the data type to raw.
+3. Set the body to JSON and enter the below object:
+
+```json
+{ "input": "hello" }
+```
+
+4. Await response from server
 <hr/>
 
 ### Usage
