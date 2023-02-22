@@ -1,5 +1,4 @@
-# Bot Imports
-#importing the libraries
+#importing ml libraries
 import tensorflow as tf
 import numpy as np
 import pandas as pd
@@ -16,10 +15,8 @@ from sklearn.preprocessing import LabelEncoder
 import random
 
 
-
 #importing the dataset
-#importing the dataset
-with open('chat.json') as content:
+with open('test.json') as content:
   data1 = json.load(content)
 #getting all the data to lists
 tags = []
@@ -71,7 +68,7 @@ model  = Model(i,x)
 #compiling the model
 model.compile(loss="sparse_categorical_crossentropy",optimizer='adam',metrics=['accuracy'])
 #training the model
-train = model.fit(x_train,y_train,epochs=200)
+train = model.fit(x_train,y_train,epochs=500)
 
 
 def getBotResponse(data_input):
