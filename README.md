@@ -7,6 +7,9 @@ Maya is a virtual assistant chatbot built to provide assistance to users of the 
 
 ## Contributors
 1. Oriel Kiplangat - kiplangatoriel@gmail.com
+2. Gilks Moseti - gilksmoseti@gmail.com
+3. Aloys Aboge Jr - junioraboge@gmail.com
+4. Otieno Bildad Moses - mosesokoth@kabarak.ac.ke
 
 ### Installation and Setup
 
