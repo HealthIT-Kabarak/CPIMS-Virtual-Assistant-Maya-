@@ -11,6 +11,12 @@ Maya is a virtual assistant chatbot built to provide assistance to users of the 
 3. Aloys Aboge Jr - junioraboge@gmail.com
 4. Otieno Bildad Moses - mosesokoth@kabarak.ac.ke
 
+## Business Understanding
+
+The client in a CPIMS user support virtual assistant project is likely an organization working with children and using CPIMS. The client needs an automated solution to handle repetitive user support requests, which are time-consuming for their service desk staff. The virtual assistant should be user-friendly, accessible, available 24/7, handle a variety of requests, and provide fast and accurate answers. Input and feedback from CPIMS users will be critical to ensure the virtual assistant meets the client's needs.
+We identified client needs by gathering data from a whatsapp chat that contained inputs and feedback from CPIMS users. The inputs had similar questions from CPIMS users making the help desk repeat the same answers overtime. We ensured the virtual assistant met the client needs by aiding in answering the common questions.
+
+
 ### Installation and Setup
 
 After forking the repository
