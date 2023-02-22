@@ -5,10 +5,6 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-@app.route('/', methods=['GET'])
-def index():
-    return 'Hello, World!'
-
 @app.route('/api', methods=['POST'])
 def maya_api():
     # Get the input text from the request
