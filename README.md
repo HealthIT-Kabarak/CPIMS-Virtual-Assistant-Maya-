@@ -4,7 +4,8 @@
 Maya is a virtual assistant chatbot built to provide assistance to users of the Child Protection Information Management Service (CPIMS). It is designed to provide users with quick and accurate responses to common queries and questions related to child protection.
 
 <img src="./assets/desktop_view.webp" alt="Image description">
-##Contributors
+
+## Contributors
 1. Oriel Kiplangat - kiplangatoriel@gmail.com
 
 ### Installation and Setup
