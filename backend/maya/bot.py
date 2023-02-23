@@ -16,7 +16,7 @@ import random
 
 
 #importing the dataset
-with open('test.json') as content:
+with open('../../datasets/test/json') as content:
   data1 = json.load(content)
 #getting all the data to lists
 tags = []
