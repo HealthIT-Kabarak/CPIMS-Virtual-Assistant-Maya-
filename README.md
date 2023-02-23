@@ -59,7 +59,35 @@ The data for the chatbot was sourced from an exported WhatsApp chat, which was t
 This provided us with a clear view of the question that was repeatedly asked and the ones which weren’t.
 Afterwards we converted the excel folder to JSON which we used for the subsequent processes e.g model training.
 
+The following procedure was involved in creating a clean dataset
+
+1.The Whatsapp txt file contained alot of dirty data initially. containing date,time,username and messages.
+
+![0](https://user-images.githubusercontent.com/102928012/220946893-67a43e17-b6e9-4baa-a7cb-65fd4ab9dac8.JPG)
+
+2.We specified each column with their respective tags.
+
+![2](https://user-images.githubusercontent.com/102928012/220948260-5499958a-1f31-46b8-a89a-a1bf92b80583.JPG)
+
+3.We trimmed the irrelevant columns we didn't need and remained with the messages column
+
+![trimmed 3](https://user-images.githubusercontent.com/102928012/220948744-2897541a-2bbe-43a7-b37b-ef3db84170c0.JPG)
+
+4.removing duplicates, essages with empty cells and irrelevant data e.g <Media omitted>, “This message was deleted”
+  which were repeated multiple times. This method of standardizing helped to reduce the number of data to a number that can be handled easily
+
+![4](https://user-images.githubusercontent.com/102928012/220950275-6753d233-0beb-4f61-824a-7b9b7a80f444.JPG)
+
+5.We then divided our datasets into categories based on the same queries asked and the consequetive responses from te admin
+
+![5](https://user-images.githubusercontent.com/102928012/220952280-2c4521d5-db3d-40e6-81e1-3d043970c2d4.JPG)
+
+6. We converted our data format to JSON data form, which is an easier form needed to feed our model, Maya
+
+![6](https://user-images.githubusercontent.com/102928012/220952731-9654561a-05b5-401e-8796-721a8111aa6c.JPG)
+
 ## Feature Engineering
+
 
 We employed discretization as we took the messy data that we had, which was pure text and emojis,emoticons alike and created two separate features possessing similar characteristics i.e. queries and responses which we again filtered based on what was relevant to us. We transformed our raw data into features that were used to build a machine learning mode in the following steps <br>
 
