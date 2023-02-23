@@ -59,7 +59,7 @@ The data for the chatbot was sourced from an exported WhatsApp chat, which was t
 This provided us with a clear view of the question that was repeatedly asked and the ones which weren’t.
 Afterwards we converted the excel folder to JSON which we used for the subsequent processes e.g model training.
 
-The following procedure was involved in creating a clean dataset
+###The following procedure was involved in creating a clean dataset
 
 1.The Whatsapp txt file contained alot of dirty data initially. containing date,time,username and messages.
 
