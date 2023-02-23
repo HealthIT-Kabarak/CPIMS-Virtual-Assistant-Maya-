@@ -73,7 +73,7 @@ The following procedure was involved in creating a clean dataset
 
 ![trimmed 3](https://user-images.githubusercontent.com/102928012/220948744-2897541a-2bbe-43a7-b37b-ef3db84170c0.JPG)
 
-4.removing duplicates, essages with empty cells and irrelevant data e.g <Media omitted>, “This message was deleted”
+4.removing duplicates, messages with empty cells and irrelevant data e.g <Media omitted>, “This message was deleted”
   which were repeated multiple times. This method of standardizing helped to reduce the number of data to a number that can be handled easily
 
 ![4](https://user-images.githubusercontent.com/102928012/220950275-6753d233-0beb-4f61-824a-7b9b7a80f444.JPG)
