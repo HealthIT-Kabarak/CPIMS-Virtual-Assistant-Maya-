@@ -74,7 +74,7 @@ Afterwards we converted the excel folder to JSON which we used for the subsequen
 ![trimmed 3](https://user-images.githubusercontent.com/102928012/220948744-2897541a-2bbe-43a7-b37b-ef3db84170c0.JPG)
 
 4.removing duplicates, messages with empty cells and irrelevant data e.g <Media omitted>, “This message was deleted”
-  which were repeated multiple times. This method of standardizing helped to reduce the number of data to a number that can be handled easily
+which were repeated multiple times. This method of standardizing helped to reduce the number of data to a number that can be handled easily
 
 ![4](https://user-images.githubusercontent.com/102928012/220950275-6753d233-0beb-4f61-824a-7b9b7a80f444.JPG)
 
@@ -87,7 +87,6 @@ Afterwards we converted the excel folder to JSON which we used for the subsequen
 ![6](https://user-images.githubusercontent.com/102928012/220952731-9654561a-05b5-401e-8796-721a8111aa6c.JPG)
 
 ## Feature Engineering
-
 
 We employed discretization as we took the messy data that we had, which was pure text and emojis,emoticons alike and created two separate features possessing similar characteristics i.e. queries and responses which we again filtered based on what was relevant to us. We transformed our raw data into features that were used to build a machine learning mode in the following steps <br>
 
@@ -177,7 +176,7 @@ Feel free to test the server using PostMan or the frontend application.
 3. Set the body to JSON and enter the below object:
 
 ```json
-{ "input": "hello" }
+{ "text": "hello" }
 ```
 
 4. Await response from server
