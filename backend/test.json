@@ -98,6 +98,31 @@
       ]
     },
     {
+      "tag": "what is CPIMS",
+      "input": [
+        "What is CPIMS",
+        "What does CPIMS do",
+        "Why was CPIMS created",
+        "purpose of CPIMS",
+        "CPIMS purpose",
+        "CPIMS use"
+      ],
+      "responses": [
+        "CPIMS is a child-focused database that has been designed to:\n1. Facilitate monitoring and evaluation of child protection interventions in Kenya, inform policy and evidence based decision making\n2. Provide access to accurate, timely and reliable aggregate-level child protection data\n3. Facilitate record keeping and information management on individual cases of child protection\n4. Track vulnerable children longitudinally and geographically to ensure continuity of care and protection, including children in institutional care\n5. Facilitate appropriate information sharing between stakeholders and service providers in the best interest of the child\n6. Be flexible and extensible over time to cater for emerging needs in the children sector"
+      ]
+    },
+    {
+      "tag": "target",
+      "input": [
+        "Who does the CPIMS target",
+        "Who is the CPIMS created for",
+        "CPIMS beneficiaries"
+      ],
+      "responses": [
+        "It targets;\n1. Children separated from or lack adult family guardians (e.g. abandoned, street living children, trafficked, lost, orphans without family care, children with parents in prison, child headed households)\n2. Children in residential institutions (statutory or charitable)\n3. Children affected by VANE: Violence, Abuse, Neglect and Exploitation – (physical abuse, sexual exploitation, sexual assault, defilement, incest, emotional abuse, neglect, female genital mutilation and other retrogressive cultural practices)\n4. Has experienced trauma from involvement in emergency situations e.g. man-made and natural disasters\n5. Living in risky family setting e.g. drug abuse in family, previous history of abuse or harmful practices in family\n6. Children in vulnerable families – living with chronically sick caregiver(s), or caregivers who are elderly or disabled to an extent that affects care of children\n7. Children in conflict with law, child offenders\n8. Child with severe health or disability issues (disability (mental, physical, albinism), living with HIV/AIDS, drug user)\n9. Child marriage, pregnancy, children who have given birth\n10. Child labour (domestic, agricultural, industrial, fishing, mining, street work)\n11. Children out of school due to truancy or delinquency\n12. Children subject to custody disputes, maintenance disputes, paternity disputes\n13. Children in need of social assistance to fulfil legal rights – birth registration, medical insurance, inheritance"
+       ]
+  },
+    {
       "tag": "discharged",
       "input": [
         "Not able to follow-up discharged kids",
@@ -175,14 +200,92 @@
         "double entry",
         "undo double entry",
         "How do I undo double entry",
-        "Good afternoon what causes duplication of persons when placing in the institution?"
+        "Good afternoon what causes duplication of persons when placing in the institution?",
+        "Two entries",
+        "Multiple entries",
+        "What's the process for deleting multiple records in the system?",
+        "How do I remove multiple entries from the system at once?",
+        "Can you show me how to delete multiple records in the system?",
+        "What's the best way to delete several records from the system?",
+        "Is it possible to delete multiple records in one go?",
+        "How can I delete multiple records at the same time?",
+        "What steps do I need to follow to delete multiple records in the system?",
+        "I need to delete multiple entries from the system, how do I do that?",
+        "How do I go about deleting multiple records in the system?",
+        "What's the quickest way to delete multiple records in the system?",
+        "How do I delete multiple records in one shot?",
+        "Can I delete multiple records using a single command?",
+        "What's the command for deleting multiple records in the system?",
+        "How can I delete multiple entries without losing data?",
+        "What precautions should I take before deleting multiple records?",
+        "How do I avoid accidentally deleting the wrong records when deleting multiple?",
+        "What's the limit on how many records I can delete at once?",
+        "How do I specify which records to delete when deleting multiple?",
+        "How do I know if my deletion of multiple records was successful?",
+        "Is there a way to undo a deletion of multiple records?",
+        "How can I delete multiple records without affecting other data in the system?",
+        "Can I delete multiple records based on specific criteria?",
+        "How do I delete multiple entries in bulk?",
+        "What's the difference between deleting single and multiple records?",
+        "How do I delete multiple records from multiple tables at once?",
+        "What's the impact of deleting multiple records on the system's performance?",
+        "How do I delete records that are linked to other records?",
+        "What happens to related records when I delete multiple records?",
+        "How do I know which records are related before deleting multiple records?",
+        "Can I delete records from multiple tables at once?",
+        "How do I delete records based on a date range?",
+        "How can I delete records without affecting the system's integrity?",
+        "What's the risk of deleting multiple records at once?",
+        "How do I delete multiple records safely?",
+        "Can I delete records that have already been deleted?",
+        "How do I delete multiple records without affecting other users?",
+        "What's the best way to delete large numbers of records?",
+        "How do I delete records that are no longer needed?",
+        "How do I delete records that are corrupted or invalid?",
+        "What's the impact of deleting records on the system's storage capacity?",
+        "How do I delete records from a backup of the system?",
+        "How do I delete multiple records from a specific user?",
+        "How can I delete records without causing data loss?",
+        "How do I delete records without affecting the system's functionality?",
+        "What's the process for deleting records from a specific table?",
+        "How can I delete records based on specific criteria?",
+        "How do I delete multiple records based on a keyword search?",
+        "How do I delete records that were created by a specific user?",
+        "What's the best way to delete records that are no longer needed?",
+        "How can I delete records without causing any errors in the system?",
+        "What's the impact of deleting records on the system's performance?",
+        "How do I delete records based on their size?"
+        
       ],
       "responses": [
         "You need to delete one in the persons registry.",
         "This will be corrected from placement dashboard as it is caused by the fact the child had multiple case categories.",
-        "You will have to give me the CPIMS ids of each duplicated pair and tell me the one to delete.",
-        "If in registry just delete but if in placement forward the CPIMS ids. Working on a permanent solution about it.",
-        "Please try logging in from another machine and report if it works. You can even use your phone. https://www.childprotection.go.ke is up and running. Please confirm that your internet connection is active and try to logging in from another computer."
+        "You could give the admin ids of each duplicated pair and tell me the one to delete.",
+        "If in registry just delete one but if in placement forward the CPIMS ids.",
+        "To remove a duplicate entry, you must delete one of the records in the persons registry.",
+        "If there is a duplicate entry, you will need to delete one of them from the persons registry.",
+        "Deleting one of the records in the persons registry will remove the duplicate entry.",
+        "The only way to remove a duplicate entry is by deleting one of the records from the persons registry.",
+        "To eliminate a dual entry, you must remove one of the records in the persons registry.",
+        "Removing a duplicate entry requires deleting one of the records in the persons registry.",
+        "You can't delete a dual entry directly, but you can remove one of the records in the persons registry to eliminate it.",
+        "To get rid of a duplicate entry, you have to delete one of the records in the persons registry.",
+        "Deleting one of the records in the persons registry is the only way to delete a dual entry.",
+        "To delete a duplicate entry, you have to delete one of the records in the persons registry."
+      ]
+    },
+    {
+      "tag": "passwordcomplexity",
+      "input": [
+        "complexity needed for passwords",
+        "password complexity",
+        "complexity for passwords",
+        "password syntax",
+        "syntax for passwords"
+      ],
+      "responses": [
+        "1.at least 8 characters, at least 1 digit(s)\n2. at least 1 lower case letter(s)\n3. at least 1 upper case letter(s)\n4. at least 1 special character(s) such as as *, -, or #",
+        "The password must have at least 8 characters, at least 1 digit(s), at least 1 lower case letter(s), at least 1 upper case letter(s), at least 1 special character(s) such as as *, -, or #"
       ]
     },
     {
@@ -244,17 +347,62 @@
       "tag": "transfer",
       "input": [
         "transfer a child to a different institution",
-        "transfer",
         "Hi,I need advice from team leaders here, when you discharge child from institution should it automatically reduce in pending cases on dashboard?",
         "What I mean is when I discharge some children from institution some disappear from pending cases on dashboard while others remain despite showing successfully discharged from institution, what could be reason? please experts advice",
-        "What would be the problem the children am placing do not appear at the dashboard"
+        "How do I transfer a child to a different institution?",
+        "What's the process for transferring a child to another institution?",
+        "Can I move a child to a different facility?",
+        "What steps do I need to take to transfer a child to a new institution?",
+        "I need to move a child to a different institution, what do I do?",
+        "Is it possible to transfer a child to another facility?",
+        "What is the protocol for transferring a child to a different institution?",
+        "How can I relocate a child to a different institution?",
+        "Can you explain the procedure for transferring a child to another facility?",
+        "What are the requirements for transferring a child to a different institution?",
+        "I want to transfer a child to another facility, what are the steps involved?",
+        "How do I transfer a child to a new institution?",
+        "What are the steps to follow when transferring a child to a different facility?",
+        "Is it possible to move a child to a different institution?",
+        "Can you help me with transferring a child to a new facility?",
+        "What is the process of transferring a child to a different institution?",
+        "I need to relocate a child to a different facility, how do I go about it?",
+        "How do I go about transferring a child to a different institution?",
+        "What's the procedure for transferring a child to another institution?",
+        "Can you guide me through the process of transferring a child to a different facility?",
+        "What should I do if I want to move a child to another institution?",
+        "I have a child that needs to be transferred to a different facility, what should I do?",
+        "How do I transfer a child to another institution?",
+        "What's the policy for transferring a child to a different institution?",
+        "What do I need to do to transfer a child to a different facility?",
+        "Is there a way to move a child to a different institution?",
+        "What are the steps involved in transferring a child to another facility?",
+        "Can you assist me with transferring a child to a different institution?",
+        "How do I initiate a transfer for a child to another facility?",
+        "What are the guidelines for transferring a child to a different institution?",
+        "How can I arrange for a child to be transferred to a different facility?",
+        "What's the best way to transfer a child to another institution?",
+        "What is the procedure for transferring a child to a different facility?",
+        "I need to relocate a child to another institution, can you help me with that?",
+        "How do I transfer a child to a different facility?",
+        "What steps do I need to take to transfer a child to a different institution?",
+        "Can you guide me through the process of moving a child to a different facility?",
+        "What is the process for transferring a child to another institution?",
+        "I want to move a child to a different institution, what do I need to do?",
+        "What is the protocol for transferring a child to a new facility?",
+        "How do I transfer a child to a different institution smoothly?",
+        "What's the policy on transferring a child to a different facility?",
+        "What are the requirements for transferring a child to another institution?",
+        "Is it possible to transfer a child to a different facility without any problems?",
+        "How can I transfer a child to a different institution effectively?",
+        "What steps do I need to follow to transfer a child to a new institution?",
+        "How do I relocate a child to a different institution",
+        "How do I relocate a child to a another institution"
       ],
       "responses": [
-        "1. Institution population appears on the dashboard (Boys/Girls) \n 2. To Search for a child just use the search bar appearing on all pages at the top put child name and click enter. \n  3. In child search results there is a history button to give child past CPIMS interactions (past cases, institution placements and any program enrollments like USAID OVC program, PSSB)\n 4. In case record detail and institution details (Edit, Print, pdf) has been added. The print button is now functional. \n 5. when your password is changed you will recieve a CPIMS internal notification.\n  6. When you transfer a child to another insitituion the users in the other SI will be notified.\n \n TO DO \n1. All notification are CPIMS internal and we are working on email and SMS if possible.\n 2. To work on your feedback",
+        "1. Institution population appears on the dashboard (Boys/Girls) \n 2. To Search for a child just use the search bar appearing on all pages at the top put child name and click enter. \n  3. In child search results there is a history button to give child past CPIMS interactions (past cases, institution placements and any program enrollments like USAID OVC program, PSSB)\n 4. In case record detail and institution details (Edit, Print, pdf) has been added. The print button is now functional. \n 5. when your password is changed you will recieve a CPIMS internal notification.\n  6. When you transfer a child to another insitituion the users in the other SI will be notified.",
         "For a case to 'disappear from pending' as you put it,you must have provided at least one service by managing encounters.If you don't manage any encounter but you manage a service,referral or court session,it still remains pending. So,there is a great chance that in some cases you have not managed an encounter hence them remaining as pending.",
         "\nStep 1. Institution population appears on the dashboard (Boys/Girls) \n 2. To Search for a child just use the search bar appearing on all pages at the top put child name and click enter.\n 3.In child search results there is a history button to give child past CPIMS interactions (past cases, institution placements and any program enrollments like USAID OVC program, PSSB)\n 4. In case record detail and institution details (Edit, Print, pdf) has been added. The print button is now functional.\n 5. when your password is changed you will recieve a CPIMS internal notification.\n 6. When you transfer a child to another insitituion the users in the other SI will be notified.\n \n TO DO\n \n 1. Currently all notification are CPIMS internal and we are working on email and SMS if possible.\n 2. To work on your feedback\n\",",
-        "For a case to 'disappear from pending' as you put it,you must have provided at least one service by managing encounters.If you don't manage any encounter but you manage a service,referral or court session,it still remains pending. So,there is a great chance that in some cases you have not managed an encounter hence them remaining as pending.",
-        "Logout and login again it should be okay"
+        "For a case to 'disappear from pending' as you put it,you must have provided at least one service by managing encounters.If you don't manage any encounter but you manage a service,referral or court session,it still remains pending. So,there is a great chance that in some cases you have not managed an encounter hence them remaining as pending."
       ]
     },
     {
@@ -273,10 +421,63 @@
       "responses": [
         "Go to follow, write name of child followed by no cco---then click institutional place, it will give type admission, then click transfer in.",
         "Once you hit the target of the tests. We will register you on live.",
-        "SCCO Please communicate the accounts you have created on live CPIMS for the respective CCIs as most of the queries here are because they have not been created yet but the users are trying to log in to the system.",
-        "Kindly access the link using https://childprotection.go.ke/login/?next=/",
-        "Please contact your SCCO for the details. Most of these accounts have not been created yet."
+        "Please contact your SCCO for the details. Account may have not been created yet."
       ]
-    }
+    },
+    {
+      "tag": "referrals",
+      "input": [
+        "Where does the CPIMS get its referrals from?",
+        "Referrals of CPIMS",
+        "CPIMS referrals",
+        "Where does the CPIMS get its referals from?",
+        "Referals of CPIMS",
+        "CPIMS referals"
+      ],
+      "responses": [
+        "It tracks referrals such as;\n1. Referrals from SCCO to NGOs (e.g. legal aid, support services)\n2. Referrals from NGOs to SCCOs\n3. Referrals to other government agencies (court, cash transfer, education authorities, Presidential bursary fund, health facilities)\n4. Court orders made in relation to children’s cases, including orders related to placements and adoptions, committal to institutions, supervision."
+       ]
+  },
+    {
+      "tag": "owners",
+      "input": [
+        "Who owns CPIMS",
+        "Who created CPIMS",
+        "Owners of CPIMS",
+        "owns CPIMS",
+        "CPIMS owners",
+        "creators of CPIMS",
+        "CPIMS creators"
+      ],
+      "responses": [
+        "Government of Kenya(GoK)"
+       ]
+      },
+       {
+        "tag": "donors",
+        "input": [
+          "Who are the donors of CPIMS?",
+          "CPIMS donors",
+          "donors of CPIMS",
+          "donates to CPIMS"
+        ],
+        "responses": [
+          "That would be:\nUSAID, UNICEF, PEPFAR"
+         ]
+    },
+    {
+      "tag": "partners",
+      "input": [
+       "Who are the partners of CPIMS?",
+        "partners of CPIMS",
+        "CPIMS partners",
+        "CPIMS facilitators",
+        "facilitators of CPIMS",
+        "facilitates CPIMS"
+      ],
+      "responses": [
+        "They are:\nHealthIT, UoN, MEASURE Evaluation PIMA"
+       ]
+  }
   ]
 }
