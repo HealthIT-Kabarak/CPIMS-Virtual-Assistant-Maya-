@@ -19,7 +19,7 @@ We identified client needs by gathering data from a whatsapp chat that contained
 
 ## Data Acquisition
 
-Data was collected from exported whatsapp chats with
+Data was collected from exported whatsapp chats from the following whatsapp groups
 <br>
 • Nairobi County CPIMS <br>
 • Msa CCI’s & DCS CPMIS WhatsApp Chat with CPIMS WAJIR TEAM <br>
