@@ -193,3 +193,4 @@ To use the chatbot, simply type a question or query into the chat window and hit
 2.	The data we were provided with proved to be real difficult to work with as the format (exported WhatsApp chat) needed a lot of time to clean.
 3.	Conversion of the file format to suitable format e.g. txt to xlsx to csv to json.
 4.	Transferring the output of the bot to the web needs alot of time and proper implementation.
+5.  Deployment costs given the use of Tensorflow which contributed to the difficulty. Alternative is to pay for hosting.
