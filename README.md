@@ -29,7 +29,7 @@ Data was collected from exported whatsapp chats from the following whatsapp grou
 The data acquisition was quite simple as the dataset was readily provided by the CPIMS team.
 
 ## Explanatory Data Analysis
-
+<img src = "CPIMS.jpg" alt = "Query Count">
 The cleaned and prepared data was analyzed to identify <br>
 ● patterns<br>
 ● Trends<br>
