@@ -63,8 +63,7 @@ Afterwards we converted the excel folder to JSON which we used for the subsequen
 
 1.The Whatsapp txt file contained alot of dirty data initially. containing date,time,username and messages.
 
-![0](https://user-images.githubusercontent.com/102928012/220946893-67a43e17-b6e9-4baa-a7cb-65fd4ab9dac8.JPG)
-
+<img src = "CPIMS2.jpg" alt = "Raw Chat">
 2.We specified each column with their respective tags.
 
 ![2](https://user-images.githubusercontent.com/102928012/220948260-5499958a-1f31-46b8-a89a-a1bf92b80583.JPG)
